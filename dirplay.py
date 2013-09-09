@@ -1,7 +1,7 @@
 import os
 from os.path import join, getsize
 
-print os.getcwd()
+#print os.getcwd()
 
 
 directory = r'c:\foo\goo'
@@ -26,6 +26,7 @@ for (dirpath, dirnames, filenames) in os.walk(tempdir):
     print dirnames
     print filenames
 
+print "whatever"
 # os.rename
 # os.renames
 # os.remove
